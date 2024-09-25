@@ -1,0 +1,69 @@
+﻿[25/09/24 11:04:05] info: Program: Starting Squirrel Updater: --releasify YourAppSetup.exe
+[25/09/24 11:04:05] info: Program: Bootstrapper EXE found at:D:\Projects\VS2019\Local\Squirrel.Windows\packages\squirrel.windows.2.0.1\tools\Setup.exe
+[25/09/24 11:04:05] fatal: Finished with unhandled exception: System.IO.FileNotFoundException: Could not find file 'YourAppSetup.exe'.
+File name: 'YourAppSetup.exe'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, Boolean packageAs64Bit, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+[25/09/24 11:09:07] info: Program: Starting Squirrel Updater: --releasify YourAppSetup.exe
+[25/09/24 11:09:07] info: Program: Bootstrapper EXE found at:D:\Projects\VS2019\Local\Squirrel.Windows\packages\Squirrel.Windows.2.0.1\tools\Setup.exe
+[25/09/24 11:09:07] fatal: Finished with unhandled exception: System.IO.FileNotFoundException: Could not find file 'YourAppSetup.exe'.
+File name: 'YourAppSetup.exe'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, Boolean packageAs64Bit, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+[25/09/24 11:10:12] info: Program: Starting Squirrel Updater: --releasify SquirrelApp.exe
+[25/09/24 11:10:12] info: Program: Bootstrapper EXE found at:D:\Projects\VS2019\Local\Squirrel.Windows\packages\Squirrel.Windows.2.0.1\tools\Setup.exe
+[25/09/24 11:10:12] fatal: Finished with unhandled exception: System.IO.FileNotFoundException: Could not find file 'SquirrelApp.exe'.
+File name: 'SquirrelApp.exe'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, Boolean packageAs64Bit, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+[25/09/24 11:14:31] info: Program: Starting Squirrel Updater: --releasify Squirrel.Windows.exe
+[25/09/24 11:14:31] info: Program: Bootstrapper EXE found at:D:\Projects\VS2019\Local\Squirrel.Windows\packages\Squirrel.Windows.2.0.1\tools\Setup.exe
+[25/09/24 11:14:31] fatal: Finished with unhandled exception: System.IO.FileNotFoundException: Could not find file 'Squirrel.Windows.exe'.
+File name: 'Squirrel.Windows.exe'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, Boolean packageAs64Bit, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+[25/09/24 11:20:11] info: Program: Starting Squirrel Updater: --releasify D:\Projects\VS2019\Local\Squirrel.Windows\Squirrel.Windows\bin\Release\Squirrel.Windows.exe
+[25/09/24 11:20:11] info: Program: Bootstrapper EXE found at:.\Setup.exe
+[25/09/24 11:20:11] fatal: Finished with unhandled exception: System.InvalidOperationException: Source sequence doesn't contain any elements.
+   at Squirrel.EnumerableExtensions.ExtremaBy[TSource,TKey](IEnumerable`1 source, Func`2 keySelector, Func`3 compare)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, Boolean packageAs64Bit, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+[25/09/24 11:21:14] info: Program: Starting Squirrel Updater: --releasify D:\Projects\VS2019\Local\Squirrel.Windows\Squirrel.Windows\bin\Release\Squirrel.Windows
+[25/09/24 11:21:14] info: Program: Bootstrapper EXE found at:.\Setup.exe
+[25/09/24 11:21:14] fatal: Finished with unhandled exception: System.IO.FileNotFoundException: Could not find file 'D:\Projects\VS2019\Local\Squirrel.Windows\Squirrel.Windows\bin\Release\Squirrel.Windows'.
+File name: 'D:\Projects\VS2019\Local\Squirrel.Windows\Squirrel.Windows\bin\Release\Squirrel.Windows'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, Boolean packageAs64Bit, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+[25/09/24 14:49:44] info: Program: Starting Squirrel Updater: --releasify D:\Projects\VS2019\Local\Squirrel.Windows\Squirrel.Windows\Squirrel.Windows.nupkg --releaseDir D:\SquirrelRelease
+[25/09/24 14:49:44] info: Program: Bootstrapper EXE found at:D:\Projects\VS2019\Local\Squirrel.Windows\packages\squirrel.windows.2.0.1\tools\Setup.exe
+[25/09/24 14:49:44] fatal: Finished with unhandled exception: System.IO.FileNotFoundException: Could not find file 'D:\Projects\VS2019\Local\Squirrel.Windows\Squirrel.Windows\Squirrel.Windows.nupkg'.
+File name: 'D:\Projects\VS2019\Local\Squirrel.Windows\Squirrel.Windows\Squirrel.Windows.nupkg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, Boolean packageAs64Bit, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+[25/09/24 14:50:17] info: Program: Starting Squirrel Updater: --releasify D:\Projects\VS2019\Local\Squirrel.Windows\Squirrel.Windows\Squirrel.Windows.0.0.0.nupkg --releaseDir D:\SquirrelRelease
+[25/09/24 14:50:17] info: Program: Bootstrapper EXE found at:D:\Projects\VS2019\Local\Squirrel.Windows\packages\squirrel.windows.2.0.1\tools\Setup.exe
+[25/09/24 14:50:17] info: Program: Creating release package: D:\SquirrelRelease\Squirrel.Windows.0.0.0.nupkg
+[25/09/24 14:50:17] info: ReleasePackage: Creating release package: D:\SquirrelRelease\Squirrel.Windows.0.0.0.nupkg => D:\SquirrelRelease\Squirrel.Windows-0.0.0-full.nupkg
+[25/09/24 14:50:18] info: ReleasePackage: Extracting dependent packages: []
+[25/09/24 14:50:18] info: ReleasePackage: Removing unnecessary data
+[25/09/24 14:50:18] info: Program: Building embedded zip file for Setup.exe
+[25/09/24 14:50:22] info: Program: Finished Squirrel Updater
